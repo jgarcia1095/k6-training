@@ -1,11 +1,12 @@
 module.exports = {
-    "url": "/user",
+    "url": "/create",
     "headers":{
         "Content-Type": "application/json"
     },
     "body": {
-        "user": "juan",
-        "pwd": "pwd"
+        "name": "test",
+        "salary": "123",
+        "age": "23"
     },
     "parametrization_test": {
         "smoke_test": {

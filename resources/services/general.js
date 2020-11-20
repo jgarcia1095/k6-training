@@ -1,3 +1,3 @@
 module.exports = {
-    "base_url" : "http://localhost:8081"
+    "base_url" : "http://dummy.restapiexample.com/api/v1/"
 }
