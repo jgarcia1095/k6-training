@@ -6,6 +6,7 @@ export let options = parametrization_data.parametrization_test[__ENV.TYPE_TEST]
 
 export default () => {
   let res = auth.execute()
-  check(res, { 'status was 200': r => r.status == 200 })
+  check(res, { 'status was 201': r => r.status == 201 })
+  console.log(res.body)
   sleep(1)
 }

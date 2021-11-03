@@ -8,6 +8,7 @@ const HEADERS = {
 
 const BODY = auth_data.body
 
-export let execute = (data) => {
+export let execute = () => {
     return http.post(`${general_data.base_url}${auth_data.url}`, JSON.stringify(BODY), HEADERS)
+
 }
