@@ -1,5 +1,5 @@
 module.exports = {
-    "url": "/hello",
+    "url": "/users/2",
     "headers":{
         "Content-Type": "application/json"
     },

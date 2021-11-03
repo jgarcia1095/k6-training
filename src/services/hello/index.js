@@ -13,8 +13,11 @@ export function setup() {
 }
 
 export default (data) => {
+  
   let res = hello.execute(data)
   check(res, { 'status was 200': r => r.status == 200 })
+  console.log('**************')
+  console.log(res.headers['Server'])
   sleep(1);
 }
 
